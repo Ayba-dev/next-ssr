@@ -7,8 +7,7 @@ import GetUserName from "@/features/getUser-name/ui/getUserName";
 import Link from "next/link";
 
 const Header = () => {
-
-    const router = useRouter()
+ 
     return (
         <div className={'flex justify-between my-10 '}>
             <div>
@@ -23,5 +22,3 @@ const Header = () => {
 
 export default Header;
 
-
-// <button onClick={() => router.push('api/auth/signin')}>Войти</button>
