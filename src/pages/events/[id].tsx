@@ -22,6 +22,5 @@ export default function Event() {
   if (!data) {
     return "No data";
   }
-
   return <EventDetail {...data} />;
 }
