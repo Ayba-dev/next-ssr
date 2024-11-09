@@ -6,6 +6,8 @@ export const CreateEventSchema = z.object({
   date: z.coerce.date(),
 });
 
+
+
 export type CreateEventSchema = z.infer<typeof CreateEventSchema>;
 
 export const JoinEventSchema = z.object({
