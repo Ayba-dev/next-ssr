@@ -9,7 +9,7 @@ export const JoinEventButton = ({
   eventId,
   onSuccess,
 }: JoinEventButtonProps) => {
-  const { mutate } = trpc.event.join.useMutation({ onSuccess });
+  const { mutate,  } = trpc.event.join.useMutation({ onSuccess });
 
   const handleClick = () => {
     mutate({ id: eventId });
